@@ -1,8 +1,11 @@
+import java.util.Random;
+
 public class BankAccount {
     private double checkingBalance;
     private double savingsDouble;
     private static int accountsCreated;
     private static double total;
+    private Long accountNumber;
 
     public BankAccount(){
         accountsCreated++;
